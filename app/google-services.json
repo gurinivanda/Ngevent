@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "548563659549",
+    "firebase_url": "https://amikom-ngevent.firebaseio.com",
+    "project_id": "amikom-ngevent",
+    "storage_bucket": "amikom-ngevent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548563659549:android:85a869a80450077a1ecff4",
+        "android_client_info": {
+          "package_name": "com.kelompok03.amikomngevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548563659549-rg647nr404k0a16thoqjdkpi92co000u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelompok03.amikomngevent",
+            "certificate_hash": "94c81f4c02a13df31450fdfff5d213e002fc650b"
+          }
+        },
+        {
+          "client_id": "548563659549-0ffacjfkolkmrb12vkf3h0hdto88448s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCP9qvf_cw5IYCfmKbyxfq_8jagRX07jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548563659549-0ffacjfkolkmrb12vkf3h0hdto88448s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

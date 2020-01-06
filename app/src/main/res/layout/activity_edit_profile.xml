@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/grad"
+    tools:context=".EditProfileActivity">
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/textInputLayoutEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/textInputLayoutPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditTextPhonel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/textInputLayoutTwitter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditTextTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Twitter"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@android:color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/textInputLayoutInstagram"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditTextInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Instagram"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@android:color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_confirm_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@android:color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+<Button
+    android:id="@+id/btnUpdate"
+    style="@style/Base.Widget.AppCompat.Button.Colored"
+    android:text="Update"
+    android:textColor="@color/colorWhite"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/followingBg"
+    android:layout_marginTop="20dp"/>
+
+</LinearLayout>
